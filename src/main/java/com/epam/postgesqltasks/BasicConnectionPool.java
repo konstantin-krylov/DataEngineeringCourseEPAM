@@ -17,6 +17,7 @@ public class BasicConnectionPool implements ConnectionPool {
     private static final int MAX_POOL_SIZE = 10;
 
     public BasicConnectionPool() {
+        // constructor
     }
 
     public BasicConnectionPool(String url, String user, String password, List<Connection> connectionPool) {

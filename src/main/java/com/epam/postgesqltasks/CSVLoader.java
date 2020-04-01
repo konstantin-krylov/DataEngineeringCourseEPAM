@@ -97,6 +97,7 @@ public class CSVLoader implements DataLoader {
             }
             ps.executeBatch(); // insert remaining records
             con.commit();
+            // &???
         } catch (Exception e) {
             con.rollback();
             e.printStackTrace();
